@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="full">Graph:</label>
+    <input id="full" value="2+(-(x-2)^2+1)^0.5"><br><!--x^2+2x+1:x+3-->
+
+    <button onclick="redraw()">Clear</button><br>
+    <button onclick="draw()">Draw graph</button><br>
+
+    <canvas id="canvas" width="800" height="700"></canvas>
+    
+    <script src="script.js"></script>
+</body>
+</html>
